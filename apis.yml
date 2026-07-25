@@ -1,7 +1,25 @@
 aid: condor-energy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/condor-energy.png
 name: Condor Energy
-description: Condor Energy is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Condor Energy is an AI-powered energy management operating system for enterprise energy
+  procurement, built for industrial companies, retailers, and data center operators who buy electricity
+  at scale. The platform aggregates consumption data, PPAs, solar, batteries, and live market data into
+  real-time dashboards; models load against market dynamics to execute hedging strategies and produce
+  board-ready price-risk reporting; and analyzes granular load data to find flexibility opportunities and
+  evaluate ROI on solar, battery, EV-charging, and hybrid investments. Founded in 2026 by former electricity
+  traders and energy physicists, the Paris-based company is a Y Combinator Winter 2026 company. No public
+  API, developer portal, or SDK is published as of this profile.
 url: https://raw.githubusercontent.com/api-evangelist/condor-energy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,46 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Energy
+- Energy Procurement
+- Energy Management
+- Sustainability
+- Data Centers
+- Price Risk Management
+- Artificial Intelligence
+- Analytics
 apis: []
+common:
+- type: VulnerabilityDisclosure
+  url: security/condor-energy-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.condor.energy/.well-known/security.txt
+- type: SecurityTxt
+  url: well-known/condor-energy-security.txt
+- type: WellKnown
+  url: well-known/condor-energy-well-known.yml
+- type: DomainSecurity
+  url: security/condor-energy-domain-security.yml
+- type: Website
+  url: https://www.condor.energy
+- type: PrivacyPolicy
+  url: https://www.condor.energy/privacy
+- type: Login
+  url: https://app.condor.energy/dashboard
+- type: LinkedIn
+  url: https://www.linkedin.com/company/condorenergy
+- type: Legal
+  url: https://www.condor.energy/legal
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
