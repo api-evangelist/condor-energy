@@ -47,7 +47,7 @@ tags:
 - Energy Procurement
 - Energy Management
 - Sustainability
-- Data-Center
+- Data Center
 - Price Risk Management
 - Artificial Intelligence
 - Analytics
@@ -61,6 +61,7 @@ tags_raw:
 - Price Risk Management
 - Artificial Intelligence
 - Analytics
+- Data-Center
 apis: []
 common:
 - type: VulnerabilityDisclosure
